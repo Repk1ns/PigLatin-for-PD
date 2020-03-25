@@ -1,0 +1,16 @@
+{
+    "name": "repk1ns/piglatin",
+    "description": "PigLatin Translator for PeckaDesing",
+    "authors": [
+        {
+            "name": "Vojtech Mimochodek",
+            "email": "mimochodekv@seznam.cz"
+        }
+    ],
+    "require": {
+        "nette/utils": " 3.1.*"
+    },
+    "require-dev": {
+        "nette/tester": "^2.3"
+    }
+}
