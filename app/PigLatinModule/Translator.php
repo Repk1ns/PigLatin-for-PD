@@ -1,8 +1,7 @@
 <?php declare(strict_types=1);
 
-namespace PigLatin;
+namespace App\PigLatinModule;
 
-require __DIR__ . "/../vendor/autoload.php";
 
 class Translator
 {

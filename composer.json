@@ -8,8 +8,19 @@
         }
     ],
     "require": {
-        "nette/utils": " 3.1.*"
+        "nette/utils": " 3.1.*",
+        "nette/application": "^3.0",
+        "nette/bootstrap": "^3.0",
+        "nette/di": "^3.0",
+        "nette/robot-loader": "^3.0",
+        "latte/latte": "^2.5",
+        "tracy/tracy": "^2.6",
+        "nette/forms": "^3.0"
     },
+    "autoload": {
+        "classmap": ["app/Bootstrap.php"]
+    },
+
     "require-dev": {
         "nette/tester": "^2.3"
     }

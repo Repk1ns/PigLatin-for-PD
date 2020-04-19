@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
 require __DIR__ . '/../../vendor/autoload.php';
-require __DIR__ . '/../../src/Translator.php';
+require __DIR__ . '/../../app/PigLatinModule/Translator.php';
 
 class TranslatorTest extends \Tester\TestCase
 {
-    public function getTranslator(): \PigLatin\Translator
+    public function getTranslator(): \App\PigLatinModule\Translator
     {
-        return new \PigLatin\Translator();
+        return new \App\PigLatinModule\Translator();
     }
 
     public function testTranslate(): void
